@@ -3,44 +3,37 @@
   <head>
     <meta charset="UTF-8">
     <title>Dina CV</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
  <body>
-    <table cellspacing="15">
-        <tr>
-            <td><img src="Аватар.jpg" width="200" alt="Тут моя фотка"></td>
-            <td><h1>Дина Фатыхова</h1>
-                <p><em>Я проектный менеджер <strong>в IT</strong></em></p>
-                <p>Я люблю путешествовать, заниматься спортом и программировать</p>
-            </td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <h2>Мои социальные сети</h2>
-    <ul type="square">
-        <li> <a href="https://www.instagram.com/dina_fatykhova" target="_blank">Instagram</a></li>
-        <li><a href="https://vk.com/dinafatykhova" target="_blank">ВКонтакте</a></li>
-    </ul>
-
-    <hr>
-
+   <div class="container">
+    <div class="info">
+        <div class="card bg-pink">
+            <img src="avatar1.jpg" alt="Тут моя фотка" class="avatar">
+            <h1> Дина Фатыхова</h1>
+                <p> Должность: проектный менеджер в IT</p>
+                <p> Дата рождения: 31.08.1998</p>
+            </div>
+    <div class="card bg-pink">
+                <h2>Мои социальные сети</h2>
+    <a href="https://www.instagram.com/dina_fatykhova" target="_blank">Instagram</a>
+    |
+    <a href="https://vk.com/dinafatykhova" target="_blank">ВКонтакте</a>
+</div>
+<div>
+    <div class="card bg-pink">
     <h2>Мои хобби</h2>
-    <ol>
+    <ol class="list">
         <li>Чтение</li>
         <li>Спорт</li>
-        <li>Сериалы</li>
+        <li>Путешествия</li>
     </ol>
+</div>
 
-    <hr>
-
+<div class="card bg-pink" >
     <h2>Мой опыт работы</h2>
-    <table>
-    <tr>
-        <th>Компания</th>
-        <th>Должность</th>
-        <th>Год</th>
-    </tr>
+    <table class="table">
+
     <tr>
         <td>ООО УИП</td>
         <td>Прооектный менеджер</td>
@@ -51,15 +44,28 @@
         <td>Менеджер по проектам</td>
         <td>2024-по н.в.</td>
     </tr>
+
+    <tr>
+        <td>Мегастрой</td>
+        <td>Менеджер по проектам</td>
+        <td>2024-по н.в.</td>
+    </tr>
+
+    <tr></tr>
+        <td>ООО УИП</td>
+        <td>Прооектный менеджер</td>
+        <td>2023-2024</td>
+    </tr>
+
     </table>
+</div>
 
-    <hr>
-
+<div class="card bg-pink">
     <h2>Ссылки для изучения</h2>
     <a href="youtube.html">Посмотреть список</a>
+</div>
 
-    <hr>
-
+<div class="card bg-pink">
     <h2>Связаться со мной</h2>
     <form action="/">
         <label for="name">Ваше имя</label>
@@ -75,5 +81,10 @@
         <input type="submit" value="Связаться!" >
 
         </form>
+    </div>
+
+    </div>
+        <div style="margin-bottom: 500px;"></div>
+    </div>
  </body>
 </html>

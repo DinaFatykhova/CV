@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;400&display=swap');
+
+body {
+background-color: #fffbfb;
+color: #000000;
+font-size: 16px;
+font-weight: normal;
+font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:blue;
+}
+
+
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,25);
+}
+
+.info {
+margin-bottom: 20px;
+}
+
+.info p {
+    color: #000000;
+    margin: 5px;
+    font-style: none;
+    font-weight: bold;
+    text-decoration:none;
+    /* text-transform: uppercase;*/
+    /*letter-spacing: 5px;*/
+    /*word-spacing: 42px;*/
+}
+
+.container {
+   max-width: 750px;
+   margin: auto;
+}
+
+.container h2 {
+    margin-top: 5px;
+    color: #350030;
+
+}
+
+.bg-pink {
+    background: #fdeffd;
+    box-shadow: 0.5px 1px 2px rgb(148, 97, 141)
+   /* border: 0.5px dashed rgb(190, 107, 163)*/
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #41003b;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/*a:visited {
+    color:gray;
+}*/
+
+/*.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}*/
+
+
+
+/*.social {
+    background: green;
+    padding: 15px;
+    margin: 20px;
+
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color: blue;
+}
+
+/*.box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+}*/
